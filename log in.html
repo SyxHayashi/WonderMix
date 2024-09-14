@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOG IN</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking to an external CSS file -->
+  <script defer src="script.js"></script>  <!-- Linking to an external JS file -->
+</head>
+<body>
+  <div class="login-container">
+    <h2>LOG IN</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username or Email Address</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">Log In</button>
+      <p id="error-msg" class="error-msg"></p>
+    </form>
+  </div>
+</body>
+</html>
